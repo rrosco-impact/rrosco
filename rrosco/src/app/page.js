@@ -140,7 +140,7 @@ export default function Home() {
           <TechIcon icon={"vercel"} width={50} height={50} />
         </span>
       </section>
-      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-250px)] w-full flex justify-center p-[100px] bg-center bg-[url(/archive-bg.png)] bg-cover relative">
+      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-300px)] w-full flex justify-center p-[100px] bg-center bg-[url(/archive-bg.png)] bg-cover relative">
         <div className="h-[90px] w-full flex flex-col justify-center items-center space-y-[24px]">
           <Image
             alt="archive-logo"
@@ -157,7 +157,7 @@ export default function Home() {
           src={"/archive-pt.png"}
           width={1080}
           height={684}
-          className="lg:h-5/7 w-auto absolute bottom-0"
+          className="lg:h-5/8 w-auto absolute bottom-0"
         />
         <a
           href="#anony"
@@ -182,7 +182,7 @@ export default function Home() {
           <TechIcon icon={"gemini"} width={50} height={50} />
         </span>
       </section>
-      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-250px)] w-full flex justify-center p-[100px] bg-center bg-[url(/anony-bg.png)] bg-cover relative">
+      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-300px)] w-full flex justify-center p-[100px] bg-center bg-[url(/anony-bg.png)] bg-cover relative">
         <div className="h-[90px] w-full flex flex-col justify-center items-center space-y-[24px]">
           <Image
             alt="anony-logo"
@@ -199,7 +199,7 @@ export default function Home() {
           src={"/anony-pt.png"}
           width={1080}
           height={684}
-          className="lg:h-5/7 w-auto absolute bottom-0"
+          className="lg:h-5/8 w-auto absolute bottom-0"
         />
         <a
           href="#kopimama"
@@ -225,7 +225,7 @@ export default function Home() {
           <TechIcon icon={"render"} width={50} height={50} />
         </span>
       </section>
-      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-250px)] w-full flex justify-center p-[72px] bg-center bg-[url(/kopimama-bg.png)] bg-cover relative">
+      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-300px)] w-full flex justify-center p-[72px] bg-center bg-[url(/kopimama-bg.png)] bg-cover relative">
         <div className="h-[90px] w-full flex flex-col justify-center items-center space-y-[24px]">
           <Image
             alt="kopimama-logo"
@@ -242,7 +242,7 @@ export default function Home() {
           src={"/kopimama-pt.png"}
           width={1080}
           height={684}
-          className="lg:h-5/7 w-auto absolute bottom-0"
+          className="lg:h-5/8 w-auto absolute bottom-0"
         />
         <a
           href="#servisit"
