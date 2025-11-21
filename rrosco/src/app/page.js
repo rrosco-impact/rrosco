@@ -74,8 +74,8 @@ export default function Home() {
       {/* HERO-SECTION */}
       <section className="h-screen w-full flex justify-center items-center bg-[#EBE9DD] relative">
         <div className="w-[960px] flex flex-col items-center space-y-[160px]">
-          <span className="flex flex-row space-x-[24px]">
-            <span className="w-[140px] flex flex-col justify-center items-center text-[24px] space-y-[0px] leading-8">
+          <span className="flex flex-row space-x-[12px] lg:space-x-[24px]">
+            <span className="w-[140px] flex flex-col justify-center items-center space-x-[12px] text-[24px] space-y-[0px] leading-8">
               <p className="text-[#00A652]">identify</p>
               <p className="text-[#00A652]">pain point</p>
             </span>
@@ -131,7 +131,7 @@ export default function Home() {
         <a target="_blank" rel="noopener noreferrer" href="https://projectarchive.vercel.app" className="text-[48px] font-medium underline">
           projectarchive.vercel.app
         </a>
-        <span className="flex flex-row space-x-[40px]">
+        <span className="flex flex-row flex-wrap ">
           <TechIcon icon={"mongodb"} width={50} height={50} />
           <TechIcon icon={"react"} width={50} height={50} />
           <TechIcon icon={"vite"} width={50} height={50} />
@@ -140,7 +140,7 @@ export default function Home() {
           <TechIcon icon={"vercel"} width={50} height={50} />
         </span>
       </section>
-      <section className="h-[calc(100vh-250px)] w-full flex justify-center p-[100px] bg-center bg-[url(/archive-bg.png)] bg-cover relative">
+      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-250px)] w-full flex justify-center p-[100px] bg-center bg-[url(/archive-bg.png)] bg-cover relative">
         <div className="h-[90px] w-full flex flex-col justify-center items-center space-y-[24px]">
           <Image
             alt="archive-logo"
@@ -148,7 +148,7 @@ export default function Home() {
             width={445}
             height={90}
           />
-          <span className="px-[24px] py-[12px] bg-[#92979F] text-[24px] text-[#1D1E21] font-bold rounded-full">
+          <span className="px-[24px] py-[12px] bg-[#92979F] md:text-[16px] md:text-[16px] lg:text-[24px] text-[#1D1E21] font-bold rounded-full">
             a research and thesis repository for universities
           </span>
         </div>
@@ -157,7 +157,7 @@ export default function Home() {
           src={"/archive-pt.png"}
           width={1080}
           height={684}
-          className="h-5/7 w-auto absolute bottom-0"
+          className="lg:h-5/7 w-auto absolute bottom-0"
         />
         <a
           href="#anony"
@@ -168,12 +168,9 @@ export default function Home() {
       </section>
 
       {/* ANONY-SECTION */}
-      <section
-        id="anony"
-        className="h-[300px] w-full flex flex-col justify-center items-center space-y-[24px] bg-[#1A91E5]"
-      >
+      <section id="anony" className="h-[300px] w-full flex flex-col justify-center items-center space-y-[24px] bg-[#1A91E5]">
         <a target="_blank" rel="noopener noreferrer" href="https://anonyph.vercel.app" className="text-[48px] font-medium underline">anonyph.vercel.app</a>
-        <span className="flex flex-row space-x-[40px]">
+        <span className="flex flex-row justify-center flex-wrap">
           <TechIcon icon={"postgresql"} width={50} height={50} />
           <TechIcon icon={"neondb"} width={50} height={50} />
           <TechIcon icon={"react"} width={50} height={50} />
@@ -185,7 +182,7 @@ export default function Home() {
           <TechIcon icon={"gemini"} width={50} height={50} />
         </span>
       </section>
-      <section className="h-[calc(100vh-300px)] w-full flex justify-center p-[100px] bg-center bg-[url(/anony-bg.png)] bg-cover relative">
+      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-250px)] w-full flex justify-center p-[100px] bg-center bg-[url(/anony-bg.png)] bg-cover relative">
         <div className="h-[90px] w-full flex flex-col justify-center items-center space-y-[24px]">
           <Image
             alt="anony-logo"
@@ -193,7 +190,7 @@ export default function Home() {
             width={240}
             height={90}
           />
-          <span className="px-[24px] py-[12px] bg-[#1A91E5] text-[24px] text-[#FFFFFF] font-bold rounded-full">
+          <span className="px-[24px] py-[12px] bg-[#1A91E5] md:text-[16px] lg:text-[24px] text-[#FFFFFF] font-bold rounded-full">
             an anonymous feedback platform using sentiment analysis
           </span>
         </div>
@@ -202,7 +199,7 @@ export default function Home() {
           src={"/anony-pt.png"}
           width={1080}
           height={684}
-          className="h-5/7 w-auto absolute bottom-0"
+          className="lg:h-5/7 w-auto absolute bottom-0"
         />
         <a
           href="#kopimama"
@@ -220,15 +217,15 @@ export default function Home() {
         <a target="_blank" rel="noopener noreferrer" href="https://kopimama.onrender.com" className="text-[48px] font-medium underline">
           kopimama.onrender.com
         </a>
-        <span className="flex flex-row space-x-[40px]">
+        <span className="flex flex-row ">
           <TechIcon icon={"postgresql"} width={50} height={50} />
           <TechIcon icon={"supabase"} width={50} height={50} />
           <TechIcon icon={"nextjs"} width={50} height={50} />
-          <TechIcon icon={"paymongo"} width={50} height={50} />
+          <TechIcon icon={"paymongo"} width={35} height={35} />
           <TechIcon icon={"render"} width={50} height={50} />
         </span>
       </section>
-      <section className="h-[calc(100vh-300px)] w-full flex justify-center p-[72px] bg-center bg-[url(/kopimama-bg.png)] bg-cover relative">
+      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-250px)] w-full flex justify-center p-[72px] bg-center bg-[url(/kopimama-bg.png)] bg-cover relative">
         <div className="h-[90px] w-full flex flex-col justify-center items-center space-y-[24px]">
           <Image
             alt="kopimama-logo"
@@ -236,7 +233,7 @@ export default function Home() {
             width={90}
             height={90}
           />
-          <span className="px-[24px] py-[12px] bg-[#F08686] text-[24px] text-[#FFFFFF] font-bold rounded-full">
+          <span className="px-[24px] py-[12px] bg-[#F08686] md:text-[16px] lg:text-[24px] text-[#FFFFFF] font-bold rounded-full">
             a booking platform for a kids play place and cafe
           </span>
         </div>
@@ -245,7 +242,7 @@ export default function Home() {
           src={"/kopimama-pt.png"}
           width={1080}
           height={684}
-          className="h-5/7 w-auto absolute bottom-0"
+          className="lg:h-5/7 w-auto absolute bottom-0"
         />
         <a
           href="#servisit"
@@ -264,9 +261,9 @@ export default function Home() {
           facebook.com/servisitph
         </a>
       </section>
-      <section className="h-[calc(100vh-300px)] w-full flex justify-center p-[200px] bg-center bg-[url(/servisit-bg.png)] bg-cover relative">
+      <section className="h-[calc(100vh-400px)] lg:h-[calc(100vh-300px)] w-full flex justify-center pt-[200px] bg-top bg-[url(/servisit-bg.png)] bg-cover relative">
         <div className="h-[90px] w-full flex flex-col justify-center items-center space-y-[24px]">
-          <span className="px-[24px] py-[12px] bg-[#ED5758] text-[24px] text-[#FFFFFF] font-bold rounded-full">
+          <span className="px-[24px] py-[12px] bg-[#ED5758] md:text-[16px] lg:text-[24px] text-[#FFFFFF] font-bold rounded-full">
             a cleaning service startup that provided moms with part-time jobs
           </span>
         </div>
@@ -286,7 +283,7 @@ export default function Home() {
         <a className="text-[48px] font-medium text-[#141213]">
           Other technologies
         </a>
-        <span className="flex flex-row space-x-[40px]">
+        <span className="flex flex-row ">
           <TechIcon icon={"github"} width={50} height={50} />
           <TechIcon icon={"docker"} width={50} height={50} />
           <TechIcon icon={"figma"} width={25} height={25} />
