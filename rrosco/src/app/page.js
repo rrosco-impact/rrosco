@@ -276,6 +276,7 @@ export default function Home() {
                 a research and thesis repository for universities and colleges
               </span>
               <a
+                className="text-white"
                 href={"https://projectarchive.vercel.app"}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -290,12 +291,12 @@ export default function Home() {
             </div>
 
             {/* ARCHIVE TECH */}
-            <div className="h-full w-full bg-[url(/noise-arc1.png)] bg-repeat p-[20px] flex flex-col justify-center items-start space-y-[10px] rounded-tl-[20px] rounded-br-[20px]">
-              <div className="flex-row">
+            <div className="h-full w-full bg-[url(/noise-arc1.png)] bg-repeat p-[20px] flex flex-col justify-center items-start space-y-[10px] rounded-tl-[20px] rounded-br-[20px] text-white">
+              <div className="flex-row text-white">
                 <span className="text-[24px] font-bold">Role: </span>
                 <span className="text-[24px]">Backend Developer</span>
               </div>
-              <span className="text-[24px] font-bold">Technologies:</span>
+              <span className="text-[24px] font-bold text-white">Technologies:</span>
               <div className="flex flex-wrap gap-[10px]">
                 <Tech text={"React"} />
                 <Tech text={"NodeJS"} />
@@ -340,6 +341,7 @@ export default function Home() {
                 content summarization & sentiment analysis.
               </span>
               <a
+                className="text-white"
                 href={"https://anonyph.vercel.app"}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -354,13 +356,13 @@ export default function Home() {
             </div>
             {/* ANON TECH STACK */}
             <div className="h-full w-full bg-[url(/noise-anobg.png)] bg-repeat p-[20px] flex flex-col justify-center items-start space-y-[10px] rounded-bl-[20px] rounded-r-[20px]">
-              <div className="flex-row">
+              <div className="flex-row text-white">
                 <span className="text-[24px] font-bold">Role: </span>
                 <span className="text-[24px] leading-0">
                   Full-stack Developer, Project Manager, Integration Specialist
                 </span>
               </div>
-              <span className="text-[24px] font-bold">Technologies: </span>
+              <span className="text-[24px] font-bold text-white">Technologies: </span>
               <div className="flex flex-wrap items-center gap-[10px]">
                 <Tech text={"React"} />
                 <Tech text={"React Native"} />
@@ -391,13 +393,14 @@ export default function Home() {
         <div className="min-h-[450px] max-h-[450px] min-w-[1020px] max-w-[1020px] flex justify-center space-x-[20px]">
           {/* ISKED LOGO */}
           <div className="h-full w-full flex flex-col space-y-[20px] bg-[url(/noise-isk5.png)] bg-repeat rounded-r-[20px] rounded-tl-[20px] p-[20px] flex justify-center">
-            <span className="text-[48px] font-bold leading-none">isked</span>
+            <span className="text-[48px] font-bold leading-none text-white">isked</span>
             <div className="space-y-[10px] flex flex-col items-start">
               <span className="text-white text-[24px] text-start leading-none">
                 a booking management platform for a kids playhouse and cafe.
               </span>
             </div>
             <a
+              className="text-white"
               href={"https://kopimama.onrender.com"}
               target="_blank"
               rel="noopener noreferrer"
@@ -413,13 +416,13 @@ export default function Home() {
 
           {/* ISKED TECH */}
           <div className="h-full w-full bg-[url(/noise-isk5.png)] bg-repeat p-[20px] flex flex-col justify-center items-start space-y-[10px] rounded-tl-[20px]">
-            <div className="flex-row">
+            <div className="flex-row text-white">
               <span className="text-[24px] font-bold">Role: </span>
               <span className="text-[24px] leading-0">
                 Full-stack Developer
               </span>
             </div>
-            <span className="text-[24px] font-bold">Technologies: </span>
+            <span className="text-[24px] font-bold text-white">Technologies: </span>
             <div className="flex flex-wrap items-center gap-[10px]">
               <Tech text={"NextJS"} />
               <Tech text={"PayMongo"} />
@@ -471,13 +474,13 @@ export default function Home() {
               </a>
             </div>
             <div className="h-full w-full bg-[url(/noise-vb-bg1.png)] bg-repeat p-[20px] flex flex-col justify-center items-start space-y-[10px] rounded-t-[20px]">
-              <div className="flex-row">
+              <div className="flex-row text-white">
                 <span className="text-[24px] font-bold">Role: </span>
                 <span className="text-[24px] leading-0">
                   Integrations Specialist
                 </span>
               </div>
-              <span className="text-[24px] font-bold">Technologies: </span>
+              <span className="text-[24px] font-bold text-white">Technologies: </span>
               <div className="flex flex-wrap items-center gap-[10px]">
                 <Tech text={"NextJS"} />
                 <Tech text={"Typescript"} />
@@ -509,6 +512,7 @@ export default function Home() {
               with little-to-no education
             </span>
             <a
+              className="text-white"
               href={"https://facebook.com/servisitph"}
               target="_blank"
               rel="noopener noreferrer"
@@ -521,7 +525,7 @@ export default function Home() {
               </span>
             </a>
           </div>
-          <div className="h-full w-full bg-[url(/noise-sv.png)] bg-repeat p-[20px] flex flex-col justify-center items-center rounded-tl-[20px]">
+          <div className="h-full w-full bg-[url(/noise-sv.png)] bg-repeat p-[20px] flex flex-col justify-center items-center rounded-tl-[20px] text-white">
             <div className="flex flex-wrap items-center gap-[10px]">
               <div className="flex-row">
                 <span className="text-[24px] font-bold">Role: </span>
@@ -574,11 +578,11 @@ export default function Home() {
               </span>
             </div>
             <div className="h-full w-full bg-[url(/noise-evac-bg1.png)] bg-repeat p-[20px] flex flex-col justify-center items-left space-y-[10px] rounded-bl-[20px] rounded-tr-[20px]">
-              <div className="flex-row">
+              <div className="flex-row text-white">
                 <span className="text-[24px] font-bold">Role: </span>
                 <span className="text-[24px] leading-0">App Developer</span>
               </div>
-              <span className="text-[24px] font-bold">Technologies: </span>
+              <span className="text-[24px] font-bold text-white">Technologies: </span>
               <div className="flex flex-wrap items-left gap-[10px]">
                 <Tech text={"Flutter"} />
                 <Tech text={"Firebase"} />
